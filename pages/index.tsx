@@ -8,7 +8,7 @@ import { Collection } from '../typings'
 interface Props {
   collections: Collection[]
 }
-const Home: NextPage = ({ collections }: Props) => {
+const Home = ({ collections }: Props) => {
   return (
     <div className="mx-auto flex min-h-screen max-w-7xl flex-col px-10 py-20 2xl:px-0">
       <Head>
